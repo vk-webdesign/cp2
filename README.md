@@ -1,2 +1,2 @@
 # cp2
-Computational Practices 2 Repository
+Vincent Keeffe's personal Computational Practices 2 repository
