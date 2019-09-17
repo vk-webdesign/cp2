@@ -37,4 +37,4 @@ success/failure/unknown buttons, which display or hide missle data depending on 
 
 year slider, filters missle data depending on year
 
-missle type checkboxes, filters missle data depending on missle type
+missle type checkboxes, show/hide missle data on visualizer depending on missle type
