@@ -1,5 +1,17 @@
 # http://buildinghop.es
 
+[img-1]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-1.png "img-1"
+[img-2]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-2.png "img-2"
+[img-3]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-3.png "img-3"
+[img-4]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-4.png "img-4"
+[img-5]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-5.png "img-5"
+[img-6]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-6.png "img-6"
+[img-7]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-7.png "img-7"
+[img-8]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-8.png "img-8"
+[img-9]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-9.png "img-9"
+[img-10]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-10.png "img-10"
+[img-11]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-11.png "img-11"
+
 #### Description
 Building Hopes is a combination of database and information visualizer. Users who visit the site are prompted to answers "How hopeful are you?" to given prompts such as, "End of digital divide", and "Human Existance". The user is able to answer these questions on a sliding scale |- A little hopefull -- Definitely hopefull -- Unconditionally hopefull -|. Once the user has answered at least four prompts they are able to compare their own answers to other user inputs.
 
@@ -60,16 +72,3 @@ Stacks of random represented hope - user data is shown in a tertiary space behin
 Stacks of random represented hope (click) - n/a
 
 Stack of represented hope detailed user response display - shows data as infographic for sector prompts detailing amount of google searches for sector prompt. Other data is showing top six locations (countries) of sector prompt searchs. It is unclear if this data is connected to user stacks.
-
-Reference-style:
-[img-1]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-1.png "img-1"
-[img-2]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-2.png "img-2"
-[img-3]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-3.png "img-3"
-[img-4]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-4.png "img-4"
-[img-5]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-5.png "img-5"
-[img-6]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-6.png "img-6"
-[img-7]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-7.png "img-7"
-[img-8]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-8.png "img-8"
-[img-9]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-9.png "img-9"
-[img-10]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-10.png "img-10"
-[img-11]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-11.png "img-11"
