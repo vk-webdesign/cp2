@@ -1,7 +1,10 @@
 # http://buildinghop.es
 
 #### Description
+Building Hopes is a combination of database and information visualizer. Users who visit the site are prompted to answers "How hopeful are you?" to given prompts such as, "End of digital divide", and "Human Existance". The user is able to answer these questions on a sliding scale |- A little hopefull -- Definitely hopefull -- Unconditionally hopefull -|. Once the user has answered at least four prompts they are able to compare their own answers to other user inputs.
 
+Information of different inputs is displayed as an infographic.
+Site may be improved by adding a more functional comparison as only a grouping of a few users answers is visible at any time.
 
 
 Reference-style: 
