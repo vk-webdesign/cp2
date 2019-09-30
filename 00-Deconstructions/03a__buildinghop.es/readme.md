@@ -5,9 +5,7 @@ Building Hopes is a combination of database and information visualizer. Users wh
 
 Information of different inputs is displayed as an infographic.
 Site may be improved by adding a more functional comparison as only a grouping of a few users answers is visible at any time.
-
-
-Reference-style: 
+ 
 ![alt text][img-1]
 ![alt text][img-2]
 ![alt text][img-3]
@@ -20,6 +18,50 @@ Reference-style:
 ![alt text][img-10]
 ![alt text][img-11]
 
+### Database of prompts and responses
+This site lives and dies off of catagorical data. 
+
+##### User input // fig 1 – 7
+Sector prompts - A parent category to question promt representing broad categories of questions, such as education, technology, environment, etc.
+
+Question prompts - a parent category to user responces based on hopefullness.
+
+Annimation (question prompts) - question promts are presented to the user rotating in a 3d environment. 
+
+3d-Model - each question prompt uses an individual 3d-model to represent it and the level of hopefullness where the scale of the model is correlated to hopefullness.
+
+User response slider - user clicks and drags the 3d-model on a scale depending on how hopefull they are within the question prompt.
+
+Annimation (slider) - slider is annimated to correlate with user dragging input and scale of 3d-Model.
+
+Button (choose) - button for user to confirm level of hopefullness input on user response slider.
+
+Annimation (choose) - 3d-model representing question prompt and level of hopefullness transitions on top of it's related question prompt.
+
+Button (done) - button for user to finish hopfullness input.
+
+Annimation (done) - transition to name and logcation data collection.
+
+Text input (name) - user input name
+
+Text input (location) - user input location
+
+Button (name & location input) - button confirms user name and location
+
+##### Infographic // fig 8 – 11
+Access to database of collected user inputs.
+
+Stack of represented hope - user data is shown in 3d-space, stacks of 3d-models represending user respences are shown for the current user and five other specific users.
+
+Stack of represented hope (click) - transition to detailed user response display.
+
+Stacks of random represented hope - user data is shown in a tertiary space behind primary 6 stacks.
+
+Stacks of random represented hope (click) - n/a
+
+Stack of represented hope detailed user response display - shows data as infographic for sector prompts detailing amount of google searches for sector prompt. Other data is showing top six locations (countries) of sector prompt searchs. It is unclear if this data is connected to user stacks.
+
+Reference-style:
 [img-1]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-1.png "img-1"
 [img-2]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-2.png "img-2"
 [img-3]: https://raw.githubusercontent.com/vk-webdesign/cp2/master/00-Deconstructions/03a__buildinghop.es/img/img-3.png "img-3"
