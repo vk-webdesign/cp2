@@ -30,7 +30,7 @@ Site may be improved by adding a more functional comparison as only a grouping o
 ![alt text][img-10]
 ![alt text][img-11]
 
-### Database of prompts and responses
+#### Deconstruction
 This site lives and dies off of catagorical data. 
 
 ##### User input // fig 1 – 7
