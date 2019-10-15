@@ -31,4 +31,4 @@ Each illustration is a collage of .svg and .jpg. They do various things such as 
 
 The illustrations do not play without user input. There is a slider that acts as the timeline of the animation sequence. The user is free to play the animation forwards or backwards.
 
-The Illustration Slider, is directly linked to an illustration. Images in the illustration animate with CSS. The slider is connected to the illustrations and the position of the marker on the timeline with JS. Depending on the position of the slider and the direction of slide, the CSS animation triggers on and off.
+The Illustration Slider, is directly linked to an illustration. Since the webpage is not scrollable, it is one long horizontal page with several illustrations evenly spaced. Images in the illustration animate with CSS. The slider is connected to the illustrations and the position of the marker on the timeline with JS. Depending on the position of the slider and the direction of slide, the CSS animation triggers on and off.
