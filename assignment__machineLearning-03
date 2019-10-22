@@ -15,5 +15,6 @@ we are able to have our sketch react to what YOLO sees.
 
 Where does that list come from?
 
-The list may come from a 'pre-trained model' library or an other image database.
-It is possible for YOLO to be trained to detect new items or create new cadegories of items from an individual framework.
+The list may come from a 'pre-trained model' library or an other image 
+database. It is possible for YOLO to be trained to detect new items or create new 
+cadegories of items from an individual framework.
