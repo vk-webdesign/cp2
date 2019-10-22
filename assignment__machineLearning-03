@@ -1,7 +1,16 @@
 what kinds of objects does the YOLO sketch detect, exactly? 
 
-Yolo's detection system looks for patterns, features and predicted movements in an input image and compares this to an existing database of extensive imagery. If the categorical image data averages out to a similar structure as the input image, then YOLO can output a match.
-Object data is outputed as Javascript objects array items with cadigorical information such as: label, accuracy, position, bounding box, etc.
+Yolo's detection system looks for patterns, features and predicted movements in 
+an input image and compares this to an existing database of extensive imagery. 
+If the categorical image data averages out to a similar structure as the input 
+image, then YOLO can output a match.
+
+Object data is outputed as Javascript objects array items with cadigorical 
+information such as: label, accuracy, position, bounding box, etc.
+
+The sketch looks at the highest proabable match of an object in the ml5.video and 
+if the predicted objects class name matches what we specify in our if statements 
+we are able to have our sketch react to what YOLO sees.
 
 
 Where does that list come from?
