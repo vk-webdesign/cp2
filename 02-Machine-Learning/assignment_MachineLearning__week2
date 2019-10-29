@@ -1,0 +1,86 @@
+// YOLO SETUP
+let video;
+let yolo;
+let status;
+let objects = [];
+
+// DRAWING SETUP
+
+function setup() {
+  createCanvas(720, 640);
+  video = createCapture(VIDEO);
+  video.size(720, 340);
+
+  // Create a YOLO method
+  yolo = ml5.YOLO(video, startDetecting);
+ 
+
+  // Hide the original video
+  video.hide();
+  status = select('#status');
+}
+
+function draw() {
+  
+   //move image by the width of image to the left
+  translate(video.width, 0);
+    //then scale it by -1 in the x-axis
+    //to flip the image
+  scale(-1, 1);
+  
+  image(video, 0, 0, width, height);
+  for (let i = 0; i < objects.length; i++) {    
+    if (objects[0].label === "person") {
+    fill(20,20,50);
+    translate(video.width, 0);
+    scale(-1, 1);
+    rect(0,0,width,height);
+    textSize(32);
+    textAlign(CENTER);
+    fill(255, 255, 255);
+
+    noStroke();
+      if (objects[0].x < 0.1) {
+        text('Move to the left!', width/2, height/2);
+      } else if (objects[0].x > 0.1) {
+        text('Move to the right!', width/2, height/2);
+      }
+      
+      //print(objects[0].x);
+      
+    } else if (objects[0].label === "cup") {
+        fill(20,20,50);
+        //noStroke();
+        rect(0,0,width,height);
+        textSize(32);
+        textAlign(CENTER);
+        fill(255, 255, 255);
+        text('That looks good.', width/2, height/2);
+    }
+    
+    noFill();
+    stroke(255);
+    rect(objects[i].x * width, objects[i].y * height, objects[i].w * width, objects[i].h * height);
+    
+    noStroke();
+    fill(240);
+    textAlign(LEFT);
+    textSize(20);
+    text(objects[i].label, objects[i].x * width - 1.5, objects[i].y * height - 6);
+  }
+  
+  
+}
+
+function startDetecting() {
+  status.html('Model loaded!');
+  detect();
+}
+
+function detect() {
+  yolo.detect(function(err, results) {
+    objects = results;
+    detect();
+    //print(objects[0]);
+  });
+}
